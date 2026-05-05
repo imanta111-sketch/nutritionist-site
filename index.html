@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нутрициолог — Персональный подход к вашему здоровью</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="#" class="logo">Nutri<span>Life</span></a>
+            <nav class="nav" id="nav">
+                <a href="#about" class="nav__link">Обо мне</a>
+                <a href="#services" class="nav__link">Услуги</a>
+                <a href="#results" class="nav__link">Результаты</a>
+                <a href="#how" class="nav__link">Как это работает</a>
+                <a href="#faq" class="nav__link">FAQ</a>
+            </nav>
+            <a href="#contact" class="btn btn--small btn--header">Записаться</a>
+            <button class="burger" id="burger" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <span class="hero__badge">Сертифицированный нутрициолог</span>
+                <h1 class="hero__title">Верните энергию и&nbsp;лёгкость через&nbsp;правильное <span>питание</span></h1>
+                <p class="hero__subtitle">Персональная программа питания без жёстких диет и&nbsp;срывов. Более 500&nbsp;клиентов уже изменили свои привычки и&nbsp;чувствуют себя великолепно.</p>
+                <div class="hero__actions">
+                    <a href="#contact" class="btn btn--primary">Получить бесплатную консультацию</a>
+                    <a href="#how" class="btn btn--outline">Узнать подробнее</a>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__number">500+</span>
+                        <span class="stat__label">Клиентов</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">3 года</span>
+                        <span class="stat__label">Опыта</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">98%</span>
+                        <span class="stat__label">Довольных</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__image">
+                <div class="hero__image-wrapper">
+                    <img src="фото девушки.webp" alt="Звонова Ксения — нутрициолог">
+                </div>
+            </div>
+        </div>
+        <div class="hero__wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 120L60 110C120 100 240 80 360 73.3C480 67 600 73 720 83.3C840 93 960 107 1080 103.3C1200 100 1320 80 1380 70L1440 60V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container about__inner">
+            <div class="about__image">
+                <img src="фото девушки.webp" alt="Звонова Ксения" class="about__image-photo">
+            </div>
+            <div class="about__content">
+                <span class="section-badge">Обо мне</span>
+                <h2 class="section-title">Помогаю людям обрести здоровые отношения с&nbsp;едой</h2>
+                <p>Меня зовут <strong>Звонова Ксения</strong>. Я — сертифицированный нутрициолог с дипломом Института интегративного питания (IIN) и 3-летним опытом работы.</p>
+                <p>Мой подход — это не про запреты и подсчёт калорий. Это про осознанное питание, которое приносит удовольствие и даёт вашему телу всё необходимое.</p>
+                <div class="about__credentials">
+                    <div class="credential">
+                        <span class="credential__icon">&#10003;</span>
+                        <span>Диплом IIN (Нью-Йорк)</span>
+                    </div>
+                    <div class="credential">
+                        <span class="credential__icon">&#10003;</span>
+                        <span>Член Ассоциации нутрициологов</span>
+                    </div>
+                    <div class="credential">
+                        <span class="credential__icon">&#10003;</span>
+                        <span>Постоянное повышение квалификации</span>
+                    </div>
+                    <div class="credential">
+                        <span class="credential__icon">&#10003;</span>
+                        <span>Авторский подход к питанию</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <span class="section-badge">Услуги</span>
+            <h2 class="section-title">Выберите подходящий формат работы</h2>
+            <p class="section-subtitle">Каждая программа адаптируется под ваши цели, образ жизни и предпочтения</p>
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__icon">&#127807;</div>
+                    <h3>Разовая консультация</h3>
+                    <p class="service-card__desc">Разбор вашего текущего рациона, рекомендации по улучшению питания и ответы на все вопросы.</p>
+                    <ul class="service-card__list">
+                        <li>Длительность 60 минут</li>
+                        <li>Анализ рациона</li>
+                        <li>Персональные рекомендации</li>
+                        <li>План действий</li>
+                    </ul>
+                    <div class="service-card__price">
+                        <span class="price__amount">100 €</span>
+                    </div>
+                    <a href="#contact" class="btn btn--primary btn--full">Записаться</a>
+                </div>
+                <div class="service-card service-card--featured">
+                    <span class="service-card__badge">Популярное</span>
+                    <div class="service-card__icon">&#127775;</div>
+                    <h3>Программа «Трансформация»</h3>
+                    <p class="service-card__desc">Полное сопровождение на 3 месяца. Изменение привычек питания, стабильный результат без срывов.</p>
+                    <ul class="service-card__list">
+                        <li>3 месяца сопровождения</li>
+                        <li>Еженедельные созвоны</li>
+                        <li>Персональный план питания</li>
+                        <li>Поддержка в чате 24/7</li>
+                        <li>Корректировки по ходу</li>
+                    </ul>
+                    <div class="service-card__price">
+                        <span class="price__old">700 €</span>
+                        <span class="price__amount">500 €</span>
+                        <span class="price__period">/ 3 месяца</span>
+                    </div>
+                    <a href="#contact" class="btn btn--primary btn--full">Записаться</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">&#128203;</div>
+                    <h3>План питания</h3>
+                    <p class="service-card__desc">Индивидуальное меню на 2 недели с рецептами, списком продуктов и подробными инструкциями.</p>
+                    <ul class="service-card__list">
+                        <li>Меню на 14 дней</li>
+                        <li>Рецепты с фото</li>
+                        <li>Список покупок</li>
+                        <li>Учёт аллергий и предпочтений</li>
+                    </ul>
+                    <div class="service-card__price">
+                        <span class="price__amount">160 €</span>
+                    </div>
+                    <a href="#contact" class="btn btn--primary btn--full">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results / Testimonials -->
+    <section class="results" id="results">
+        <div class="container">
+            <span class="section-badge">Результаты</span>
+            <h2 class="section-title">Истории моих клиентов</h2>
+            <div class="results__grid">
+                <div class="result-card">
+                    <div class="result-card__header">
+                        <div class="result-card__avatar">АК</div>
+                        <div>
+                            <h4>Анна Козлова</h4>
+                            <span class="result-card__result">-12 кг за 3 месяца</span>
+                        </div>
+                    </div>
+                    <p class="result-card__text">«Наконец-то я нашла подход, который работает без мучений. Елена помогла мне перестроить отношения с едой. Я ем вкусно, сытно и при этом худею. Энергии хватает на всё!»</p>
+                    <div class="result-card__stars">★★★★★</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-card__header">
+                        <div class="result-card__avatar">МД</div>
+                        <div>
+                            <h4>Марина Демидова</h4>
+                            <span class="result-card__result">Избавилась от проблем с ЖКТ</span>
+                        </div>
+                    </div>
+                    <p class="result-card__text">«Годы мучений с желудком закончились после работы с Еленой. Она не просто дала список продуктов, а научила слышать своё тело. Я забыла про дискомфорт и вздутие.»</p>
+                    <div class="result-card__stars">★★★★★</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-card__header">
+                        <div class="result-card__avatar">ИП</div>
+                        <div>
+                            <h4>Игорь Петров</h4>
+                            <span class="result-card__result">+30% энергии, -8 кг</span>
+                        </div>
+                    </div>
+                    <p class="result-card__text">«Как предприниматель, я всегда был на кофе и перекусах. Елена составила удобный план, который вписался в мой график. Результат — я чувствую себя на 10 лет моложе.»</p>
+                    <div class="result-card__stars">★★★★★</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="how" id="how">
+        <div class="container">
+            <span class="section-badge">Процесс</span>
+            <h2 class="section-title">Как проходит работа</h2>
+            <p class="section-subtitle">Четыре простых шага к вашему новому самочувствию</p>
+            <div class="how__grid">
+                <div class="how__step">
+                    <span class="how__number">01</span>
+                    <h3>Заявка</h3>
+                    <p>Вы оставляете заявку на сайте. Я свяжусь с вами в течение 2 часов для бесплатной 15-минутной консультации.</p>
+                </div>
+                <div class="how__step">
+                    <span class="how__number">02</span>
+                    <h3>Диагностика</h3>
+                    <p>Заполняете подробную анкету о здоровье, привычках и целях. Мы проводим глубинную консультацию 60-90 минут.</p>
+                </div>
+                <div class="how__step">
+                    <span class="how__number">03</span>
+                    <h3>Программа</h3>
+                    <p>Получаете персональный план питания, адаптированный под ваш образ жизни, вкусы и цели.</p>
+                </div>
+                <div class="how__step">
+                    <span class="how__number">04</span>
+                    <h3>Сопровождение</h3>
+                    <p>Регулярные встречи и поддержка в чате. Корректируем план по мере вашего прогресса.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner__inner">
+                <h2>Готовы изменить свои привычки питания?</h2>
+                <p>Запишитесь на бесплатную 15-минутную консультацию и узнайте, как я могу помочь именно вам</p>
+                <a href="#contact" class="btn btn--white">Записаться бесплатно</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <span class="section-badge">Вопросы</span>
+            <h2 class="section-title">Часто задаваемые вопросы</h2>
+            <div class="faq__list">
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Нужно ли мне будет соблюдать строгую диету?</span>
+                        <span class="faq__toggle">+</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Нет! Мой подход — это не про ограничения и запреты. Мы работаем над формированием здоровых привычек, которые останутся с вами навсегда. Вы будете есть вкусно и разнообразно.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Как проходят консультации?</span>
+                        <span class="faq__toggle">+</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Консультации проходят онлайн через Zoom или Google Meet. Вы можете быть в любом городе. Первичная диагностика длится 60-90 минут, последующие встречи — 30-45 минут.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Через какое время я увижу результат?</span>
+                        <span class="faq__toggle">+</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Первые изменения в самочувствии большинство клиентов замечают уже через 1-2 недели. Стабильные видимые результаты — через 4-6 недель. Всё зависит от ваших целей и начальной точки.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Работаете ли вы с медицинскими диагнозами?</span>
+                        <span class="faq__toggle">+</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Я работаю в рамках нутрициологии и не ставлю медицинские диагнозы. Однако я могу скорректировать питание при имеющихся диагнозах, работая в связке с вашим лечащим врачом.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Что если у меня аллергия или непереносимость?</span>
+                        <span class="faq__toggle">+</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Все аллергии и непереносимости обязательно учитываются при составлении плана. Я подберу полноценную замену любым продуктам, чтобы ваш рацион оставался сбалансированным.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Можно ли оплатить в рассрочку?</span>
+                        <span class="faq__toggle">+</span>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Да, для программы «Трансформация» доступна рассрочка на 3 платежа. Также есть скидка при полной оплате. Обсудим удобный вариант на консультации.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <div class="contact__info">
+                    <span class="section-badge">Контакты</span>
+                    <h2 class="section-title">Запишитесь на бесплатную консультацию</h2>
+                    <p>Оставьте заявку, и я свяжусь с вами в течение 2 часов. Мы обсудим ваши цели и решим, подходим ли мы друг другу.</p>
+                    <div class="contact__details">
+                        <div class="contact__detail">
+                            <span class="contact__icon">&#9993;</span>
+                        <div>
+                            <strong>Email</strong>
+                            <a href="mailto:hello@ksenia-nutri.ru">hello@ksenia-nutri.ru</a>
+                        </div>
+                    </div>
+                    <div class="contact__detail">
+                        <span class="contact__icon">&#9742;</span>
+                        <div>
+                            <strong>Телефон</strong>
+                            <a href="tel:+491234567890">+49 123 456 7890</a>
+                        </div>
+                    </div>
+                    <div class="contact__detail">
+                        <span class="contact__icon">&#128172;</span>
+                        <div>
+                            <strong>Telegram</strong>
+                            <a href="https://t.me/ksenia_nutri" target="_blank">@ksenia_nutri</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" name="name" placeholder="Как к вам обращаться?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон или Telegram</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="goal">Ваша главная цель</label>
+                        <select id="goal" name="goal">
+                            <option value="">Выберите цель</option>
+                            <option value="weight-loss">Снижение веса</option>
+                            <option value="energy">Повышение энергии</option>
+                            <option value="digestion">Улучшение пищеварения</option>
+                            <option value="habits">Формирование привычек</option>
+                            <option value="other">Другое</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Комментарий (необязательно)</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Расскажите немного о себе..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full btn--large">Отправить заявку</button>
+                    <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__left">
+                    <a href="#" class="logo">Nutri<span>Life</span></a>
+                    <p>Персональный подход к вашему здоровью через осознанное питание.</p>
+                </div>
+                <div class="footer__center">
+                    <a href="#about">Обо мне</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#results">Результаты</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+                <div class="footer__right">
+                    <a href="https://t.me/ksenia_nutri" target="_blank" class="social-link">Telegram</a>
+                    <a href="https://instagram.com/ksenia_nutri" target="_blank" class="social-link">Instagram</a>
+                    <a href="https://youtube.com/@ksenia_nutri" target="_blank" class="social-link">YouTube</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Ксения Звонова. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile menu overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu__close" id="mobileMenuClose">&times;</button>
+        <nav>
+            <a href="#about" class="mobile-menu__link">Обо мне</a>
+            <a href="#services" class="mobile-menu__link">Услуги</a>
+            <a href="#results" class="mobile-menu__link">Результаты</a>
+            <a href="#how" class="mobile-menu__link">Как это работает</a>
+            <a href="#faq" class="mobile-menu__link">FAQ</a>
+            <a href="#contact" class="mobile-menu__link mobile-menu__cta">Записаться</a>
+        </nav>
+    </div>
+
+    <!-- Success modal -->
+    <div class="modal" id="successModal">
+        <div class="modal__overlay" id="modalOverlay"></div>
+        <div class="modal__content">
+            <button class="modal__close" id="modalClose">&times;</button>
+            <div class="modal__icon">&#10003;</div>
+            <h3>Заявка отправлена!</h3>
+            <p>Спасибо! Я свяжусь с вами в течение 2 часов для обсуждения деталей.</p>
+            <a href="#" class="btn btn--primary" id="modalBtn">Отлично!</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
